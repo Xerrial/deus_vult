@@ -1,0 +1,43 @@
+{
+    "levels": {
+        "event1": {
+            "assets": {},
+            "properties": {
+                "text": "Event 1",
+                "style": {"font": "16px Arial", "fill": "#FFF"},
+                "min_player_level": 3
+            },
+            "status": false
+        },
+        "swamp": {
+            "assets": {},
+            "properties": {
+                "text": "Топи",
+                "style": {"font": "16px Arial", "fill": "#FFF"},
+                "level_file": "assets/levels/swamp.json",
+                "min_player_level": 1
+            },
+            "status": true
+        },
+        "city": {
+            "assets": {},
+            "properties": {
+                "text": "Город",
+                "style": {"font": "16px Arial", "fill": "#FFF"},
+                "level_file": "assets/levels/city.json",
+                "min_player_level": 4
+            },
+            "status": true
+        },
+        "laboratory": {
+            "assets": {},
+            "properties": {
+                "text": "Лаборатория",
+                "style": {"font": "16px Arial", "fill": "#FFF"},
+                "level_file": "assets/levels/lab.json",
+                "min_player_level": 7
+            },
+            "status": true
+        }
+    }
+}

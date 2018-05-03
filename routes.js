@@ -2,10 +2,14 @@ const passport = require('passport');
 
 module.exports = (app) => {
 
-
-    app.get('/', (req, res) => {
-        res.send('I\' working lol');
+    app.use(function(req, res, next) {
+        console.log(req.url);
+        next();
     });
+    
+    // app.get('/', (req, res) => {
+    //     res.send('I\' working lol');
+    // });
 
 
 };
