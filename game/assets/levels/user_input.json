@@ -1,0 +1,22 @@
+{
+    "keydown": {
+        "W": {
+            "callback": "player.change_movement"
+        },
+        "S": {
+            "callback": "player.change_movement"
+        },
+        "A": {
+            "callback": "player.change_movement"
+        },
+        "D": {
+            "callback": "player.change_movement"
+        },
+        "F": {
+            "callback": "player.shooting"
+        },
+        "R": {
+            "callback": "player.healing"
+        }
+    }
+}

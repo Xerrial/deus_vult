@@ -1,10 +1,54 @@
 {
+    "menu_items": {
+        "profile": {
+            "position": {"x": 50, "y": 20},
+            "properties": {
+                "text": "Профиль",
+                "style": {"font": "16px Arial", "fill": "#FFF"},
+                "group": "menu_items",
+                "level_file": "assets/levels/profile.json"
+            }
+        },
+        "back": {
+            "position": {"x": 980, "y": 20},
+            "properties": {
+                "text": "Главное меню",
+                "style": {"font": "16px Arial", "fill": "#FFF"},
+                "group": "menu_items",
+                "level_file": "assets/levels/main_screen.json"
+            }
+        }
+    },
+    "assets": {
+        "map_tiles": {"type": "image", "source": "assets/images/bomberman_spritesheet.png"},
+        "player_spritesheet": {"type": "spritesheet", "source": "assets/images/player_spritesheet.png", "frame_width": 16, "frame_height": 16},
+        "bomb_spritesheet": {"type": "spritesheet", "source": "assets/images/bomb_spritesheet.png", "frame_width": 16, "frame_height": 16},
+        "enemy_spritesheet": {"type": "spritesheet", "source": "assets/images/enemy_spritesheet.png", "frame_width": 16, "frame_height": 16},
+        "explosion_image": {"type": "image", "source": "assets/images/explosion.png"},
+        "heart_image": {"type": "image", "source": "assets/images/heart.png"},
+        "target_image": {"type": "image", "source": "assets/images/target.png"},
+        "goal_image": {"type": "image", "source": "assets/images/portal.png"},
+        "life_item_image": {"type": "image", "source": "assets/images/life_item.png"},
+        "bomb_item_image": {"type": "image", "source": "assets/images/bomb_item.png"},
+        
+        "level_tilemap": {"type": "tilemap", "source": "assets/maps/level1_map.json"},
+
+        "level_panel": {"type": "image", "source": "assets/images/intrf/level_panel.png"},
+        "swamp": {"type": "image", "source": "assets/images/swamp.png"},
+        "city": {"type": "image", "source": "assets/images/city.png"},
+        "lab": {"type": "image", "source": "assets/images/lab.png"}
+    },
+    "map": {
+        "key": "level_tilemap",
+        "tilesets": ["map_tiles"]
+    },
     "levels": {
         "event1": {
             "assets": {},
             "properties": {
                 "text": "Event 1",
-                "style": {"font": "16px Arial", "fill": "#FFF"},
+                "style": {"font": "36px 'Playfair Display SC'", "fill": "#FFF"},
+                "image": "",
                 "min_player_level": 3
             },
             "status": false
@@ -13,8 +57,9 @@
             "assets": {},
             "properties": {
                 "text": "Топи",
-                "style": {"font": "16px Arial", "fill": "#FFF"},
+                "style": {"font": "36px 'Playfair Display SC'", "fill": "#eaeaea"},
                 "level_file": "assets/levels/swamp.json",
+                "image": "swamp",
                 "min_player_level": 1
             },
             "status": true
@@ -23,8 +68,9 @@
             "assets": {},
             "properties": {
                 "text": "Город",
-                "style": {"font": "16px Arial", "fill": "#FFF"},
+                "style": {"font": "36px 'Playfair Display SC'", "fill": "#eaeaea"},
                 "level_file": "assets/levels/city.json",
+                "image": "city",
                 "min_player_level": 4
             },
             "status": true
@@ -33,8 +79,9 @@
             "assets": {},
             "properties": {
                 "text": "Лаборатория",
-                "style": {"font": "16px Arial", "fill": "#FFF"},
+                "style": {"font": "36px 'Playfair Display SC'", "fill": "#eaeaea"},
                 "level_file": "assets/levels/lab.json",
+                "image": "lab",
                 "min_player_level": 7
             },
             "status": true

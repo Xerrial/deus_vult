@@ -15,11 +15,13 @@ var config = {
 var Deusvult = Deusvult || {};
 var game = new Phaser.Game(config);
 
- game.state.add("BootState", new Deusvult.BootState());
-// game.state.add("LoadingState", new Deusvult.LoadingState());
-game.state.add("TitleState", new Deusvult.TitleState());
-// game.state.add("LevelState", new Deusvult.LevelState());
+
+game.state.add("BootState", new Deusvult.BootState()); 
+game.state.add("LoadingState", new Deusvult.LoadingState());
+game.state.add("TitleState", new Deusvult.TitleState()); 
+game.state.add("LevelState", new Deusvult.LevelState());
 game.state.start("TitleState", true, false, "assets/levels/main_screen.json");
+
 
 /*function preload ()
 {
