@@ -14,8 +14,7 @@
             "properties": {
                 "text": "Рейтинг",
                 "style": {"font": "16px Arial", "fill": "#FFF"},
-                "group": "menu_items",
-                "level_file": "assets/levels/level_choose.json"
+                "group": "menu_items"
             }
         },
         "profile": {
@@ -24,7 +23,7 @@
                 "text": "Профиль",
                 "style": {"font": "16px Arial", "fill": "#FFF"},
                 "group": "menu_items",
-                "level_file": "assets/levels/level_choose.json"
+                "level_file": "assets/levels/profile.json"
             }
         }
         

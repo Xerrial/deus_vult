@@ -1,0 +1,26 @@
+{
+    "mosquito": {
+        "info": "text",
+        "image": "assets/images/sprites/char2.png",
+        "stats": {
+            "speed":6,
+            "hp":80
+        }
+    },
+    "bash": {
+        "info": "text",
+        "image": "assets/images/sprites/char1.png",
+        "stats": {
+            "speed":2,
+            "hp":120
+        }
+    },
+    "onigiri": {
+        "info": "text",
+        "image": "assets/images/sprites/char3.png",
+        "stats": {
+            "speed":4,
+            "hp":100
+        }
+    }
+}

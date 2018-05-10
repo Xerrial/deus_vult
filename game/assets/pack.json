@@ -1,0 +1,65 @@
+{
+  "main": [
+    {
+      "type": "image",
+      "key": "larger",
+      "url": "assets/images/intrf/larger.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "smaller",
+      "url": "assets/images/intrf/smaller.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "musicOff",
+      "url": "assets/images/intrf/musicOff.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "musicOn",
+      "url": "assets/images/intrf/musicOn.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "char1",
+      "url": "assets/images/sprites/char1.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "char2",
+      "url": "assets/images/sprites/char2.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "char3",
+      "url": "assets/images/sprites/char3.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    }
+  ],
+  "meta": {
+    "generated": "1525959430355",
+    "app": "Phaser Editor",
+    "url": "http://phasereditor.boniatillo.com",
+    "version": "1.0",
+    "copyright": "Arian Fornaris (c) 2015,2016"
+  }
+}
