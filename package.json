@@ -1,0 +1,26 @@
+{
+  "name": "opd_project",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.0.5",
+    "passport": "^0.4.0",
+    "phaser": "^3.4.0"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xerrial/deusvult.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xerrial/deusvult/issues"
+  },
+  "homepage": "https://github.com/Xerrial/deusvult#readme",
+  "description": "OPD Project"
+}

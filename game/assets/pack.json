@@ -1,0 +1,83 @@
+{
+  "main": [
+    {
+      "type": "image",
+      "key": "larger",
+      "url": "assets/images/intrf/larger.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "smaller",
+      "url": "assets/images/intrf/smaller.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "musicOff",
+      "url": "assets/images/intrf/musicOff.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "musicOn",
+      "url": "assets/images/intrf/musicOn.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "char1",
+      "url": "assets/images/sprites/char1.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "char2",
+      "url": "assets/images/sprites/char2.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "char3",
+      "url": "assets/images/sprites/char3.png",
+      "frameWidth": 0,
+      "frameHeight": 0,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "tilemap",
+      "key": "swamp1",
+      "url": "assets/images/tilemaps/swamp1.csv",
+      "format": "CSV"
+    },
+    {
+      "type": "image",
+      "key": "tileset",
+      "url": "assets/images/tileset.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "crab",
+      "url": "assets/images/sprites/crab.png",
+      "overwrite": false
+    }
+  ],
+  "meta": {
+    "generated": "1526997845991",
+    "app": "Phaser Editor",
+    "url": "http://phasereditor.boniatillo.com",
+    "version": "1.0",
+    "copyright": "Arian Fornaris (c) 2015,2016"
+  }
+}

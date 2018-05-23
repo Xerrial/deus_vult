@@ -1,0 +1,65 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "Swamp_1",
+    "sceneWidth": 1080,
+    "sceneHeight": 720,
+    "generateOnSave": true,
+    "enableStepping": true,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.State",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": false
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "physicsSystem": "ARCADE",
+    "rendererRoundPixels": true,
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "e2004ea8-e8bd-415b-aa18-c357c8486ea8",
+    "info": {
+      "editorName": "Swamp_1",
+      "setAll": [],
+      "children": [{
+        "type": "tilemap",
+        "id": "e46724fd-eba4-4815-a984-d79a4f55f0d9",
+        "asset": "0",
+        "info": {
+          "editorName": "swamp",
+          "y": 32,
+          "tilesetImage": {
+            "file": "assets/pack.json",
+            "section": "main",
+            "asset": "tileset"
+          }
+        }
+      }]
+    }
+  },
+  "type": "STATE",
+  "asset-table": {"0": {
+    "file": "assets/pack.json",
+    "section": "main",
+    "asset": "swamp1"
+  }},
+  "prefab-table": {}
+}
